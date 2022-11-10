@@ -4,15 +4,12 @@ import 'son.dart';
 import 'grand_father.dart';
 
 void main() {
-  print('I am main.');
+  print('I am main. Learn from TutorialPoints.com');
 
-  Father child1 = Father();
-  Son child2 = Son();
+  Father father = Father();
+  
 
-  child1.p1i1 = 1;
-  child2.p1i1 = 2;
-
-  print(child1.p1i1);
+  father.mGF("Father object");
 
   //output
   // print();
