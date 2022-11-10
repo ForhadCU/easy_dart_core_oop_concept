@@ -1,4 +1,5 @@
-class ParentClass1 {
+class GrandFather {
+  late String _gName;
   late String _p1s1;
   late String _p1s2;
   late String _p1s3;
@@ -9,17 +10,18 @@ class ParentClass1 {
 
   // ParentClass1(){}
 
-  ParentClass1({required String p1s2, required int p1i1}) {
+/*   ParentClass1({required String p1s2, required int p1i1}) {
     _p1s2 = p1s2;
     _p1i1 = p1i1;
-  }
+  } */
 
-  ParentClass1.NamedConstructorP1(
+/*ParentClass1.NamedConstructorP1(
       {required String p1s2, required int p1i2, required int p1i3}) {
     _p1i3 = p1i3;
     _p1s2 = p1s2;
     _p1i2 = p1i2;
   }
+ */
 
   //getter setter
 
