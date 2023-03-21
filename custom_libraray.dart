@@ -15,3 +15,11 @@ int mRandomNum({required int range}) {
 }
 
 String s = 'This is a theorem';
+
+void mLog({String? message}) {
+  message == null ? print('Called') : print('Log Message: $message');
+}
+
+class ClassInLib {
+  String s = 'String from class';
+}
